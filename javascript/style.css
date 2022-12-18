@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.green {
+    font-size: 20px;
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.day {
+    background: linear-gradient(-45deg, #f2ffc3, #ace699, #95ecef);
+    background-size: 400%;
+}
+
+.nightcolor {
+    background-color: grey;
+}
+
+.menu {
+    margin: 0;
+    display: flex;
+    padding: 5px; 
+    background-color: black;
+    justify-content: left;
+}
+
+.menu a {
+        display:flex;
+        min-width: 200px;
+        margin: 1rem;
+        padding: 0.1rem 0;
+        text-align: center;  
+        background-color: white;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-family: 'Rubik Mono One', sans-serif;
+        transition: color 400ms;
+        transform-style: preserve-3d;
+}
+      
+
+div {
+    font-size: large;
+}
